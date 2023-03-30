@@ -24,6 +24,8 @@ class User extends Model {
     }
     checkPassword(password) {
     bcrypt.compare(password, this.password_hash)
+
+
    }
 }
 
